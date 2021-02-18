@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+      <link rel="stylesheet" href="dist/reset.css">
+      <link rel="stylesheet" href="dist/reveal.css">
+      <link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+      <!-- Theme used for syntax highlighted code -->
+      <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/mycss.css">
+
+  </head>
+  <body>
+
+    <div class="reveal" id="ppt">
+
+    </div>
+
+
+    <script type="module">
+
+        import Reveal from "./dist/reveal.esm.js";
+        import Highlight from "./plugin/highlight/highlight.esm.js"
+        import Math from "./plugin/math/math.esm.js"
+
+        Reveal.initialize({
+            hash: true,
+            width:1920,
+            height:1080,
+            center:false,
+            margin: 0,
+            autoAnimateUnmatched: false,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ Highlight, Math ]
+        });
+
+    </script>
+  </body>
+</html>

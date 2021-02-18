@@ -1,0 +1,47 @@
+/*.slides{*/
+/*    border:1px solid skyblue;*/
+/*}*/
+.section_biaoti{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    /* margin-top: 5%; */
+    /* padding-top: 15%; */
+}
+#shouye .card-img{
+    margin-top: 14%;
+    /*height: 700px;*/
+}
+
+#shouye .display-1{
+    font-weight: bold;
+    font-family: "Times New Roman";
+    margin-top: 25%;
+}
+#shouye .h1{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    /* margin-bottom: 0; */
+}
+
+
+.section_body{
+    font-family:"Times New Roman","KaiTi",sans-serif;
+    font-size:36px;
+    line-height: 1.5;
+}
+
+.section_body_chn
+{
+    font-family:  "KaiTi";
+    font-size:36px;
+
+}
+
+.reveal section{
+    height: 100%;
+}
+
+.reveal .container-fluid{
+    height:91.0%;
+}
