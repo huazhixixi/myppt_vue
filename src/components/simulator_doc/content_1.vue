@@ -5,7 +5,7 @@
     <navbar section_title="The Basic Dir of The Simulator"></navbar>
 
     <div class="container-fluid">
-      <div class="row h-100 align-items-center" >
+      <div class="row shadow h-100 align-items-center" >
         <div class="col">
           <div class="card border-info" >
             <img src="figure/simulator/tree.png" alt="" class="card-img-top">

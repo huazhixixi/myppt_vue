@@ -26,7 +26,7 @@
 
 
 .section_body{
-    font-family:"Times New Roman","KaiTi",sans-serif;
+    font-family:"Times New Roman","kaiti",sans-serif;
     font-size:36px;
     line-height: 1.5;
 }
@@ -43,5 +43,6 @@
 }
 
 .reveal .container-fluid{
-    height:91.0%;
+    height:88.0%;
+    padding: 1% 2%;
 }

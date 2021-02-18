@@ -19,7 +19,6 @@
       </div>
     </card>
   </section>
-
 </template>
 
 <script>
