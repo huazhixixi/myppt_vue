@@ -87,6 +87,7 @@ name: "content_2.vue",
   navbar
   }
 }
+// alert("hello wrold");
 </script>
 
 <style scoped>
